@@ -1,63 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memon Garments - Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-    <!-- seo meta tags -->
-    <meta name="title" content="Memon Garments" />
-    <meta name="descripton" content="We are the munfacteres and wholesalers of children garments and accessories" />
-    <meta name="keywords" content="Garments, newborn, kids clothing, made in pakistan, wholsale" />
-    <meta name="author" content="Sadiq Mayari" />
-    <!-- seo meta tags -->
+    /* Banner Section */
+    .banner {
+      position: relative;
+      background: url('banner.jpg') no-repeat center center/cover;
+      height: 50vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
 
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/3c2cacd22f.js" crossorigin="anonymous"></script>
-    <!-- fontawesome -->
-    <title>Memon Garments | The Whole Sale Arena</title>
+    .banner h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
 
-    <link rel="shortcut icon" href="./Images/transparent logo.png" type="image/jpeg">
-    <link rel="stylesheet" href="style.css" />
+    .banner p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    }
 
+    /* Gallery Section */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
 
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Responsive Text */
+    @media (max-width: 768px) {
+      .banner h1 {
+        font-size: 2rem;
+      }
+
+      .banner p {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
-
 <body>
-    <!-- header section  -->
-    <header>
-        <div class="header">
-            <div class="top-bar">
-                <div class="logo">
-                <img src="./Images/logo white.png" alt=""  width="50px" height="100%"></div>
-                <div class="social">
-                    <a href="https://fb.com/memongarments.pk"><img src="./Images/facebook.svg" width="20px" height="20px"></a><br>
-                    <a href="https://fb.com/memongarments.pk"><img src="./Images/envelope-regular.svg" width="20px" height="20px"></a>
-                </div>
+  
+  <!-- Banner Section -->
+  <div class="banner">
+    <div>
+      <h1>Welcome to Memon Garments</h1>
+      <p>Discover unique, high-quality products crafted with care.</p>
+    </div>
+  </div>
 
-            </div>
-            <div class="banner-section">
-                <div class="banner"><iframe src="
-                    
-                    
-                    
-                    
-                    " frameborder="0"></iframe></div>
-            </div>
-            <div class="navbar">
-                <div class="nav-list">
-                    <ul class="nav-list-section">
-                        <li class="the-list"><a href="index.html">Home</li></a>
-                        <li class="the-list"><a href="store.html">Products</li></a>
-                        <li class="the-list"><a href="aboutus.html">About Us</li></a>
-                        <li class="the-list"><a href="contactus.html">Contact Us</li></a>
-                    </ul>
-                </div>
+  <!-- Gallery Section -->
+  <div class="gallery">
+    <img src="product1.jpg" alt="Product 1">
+    <img src="product2.jpg" alt="Product 2">
+    <img src="product3.jpg" alt="Product 3">
+    <img src="product4.jpg" alt="Product 4">
+    <img src="product5.jpg" alt="Product 5">
+    <img src="product6.jpg" alt="Product 6">
+    <img src="product7.jpg" alt="Product 7">
+    <img src="product8.jpg" alt="Product 8">
+    <img src="product9.jpg" alt="Product 9">
+    <img src="product10.jpg" alt="Product 10">
+    <img src="product11.jpg" alt="Product 11">
+    <img src="product12.jpg" alt="Product 12">
+    <img src="product13.jpg" alt="Product 13">
+    <img src="product14.jpg" alt="Product 14">
+    <img src="product15.jpg" alt="Product 15">
+    <img src="product16.jpg" alt="Product 16">
+    <img src="product17.jpg" alt="Product 17">
+    <img src="product18.jpg" alt="Product 18">
+    <img src="product19.jpg" alt="Product 19">
+    <img src="product20.jpg" alt="Product 20">
+    <img src="product21.jpg" alt="Product 21">
+    <img src="product22.jpg" alt="Product 22">
+    <img src="product23.jpg" alt="Product 23">
+    <img src="product24.jpg" alt="Product 24">
+    <img src="product25.jpg" alt="Product 25">
+    <img src="product26.jpg" alt="Product 26">
+    <img src="product27.jpg" alt="Product 27">
+    
+    <!-- Add more images as needed -->
+  </div>
 
-            </div>
-        </div>
-    </header>
-    <!-- end header section -->
 </body>
-
 </html>
